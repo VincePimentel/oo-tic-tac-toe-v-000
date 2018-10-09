@@ -89,6 +89,6 @@ class TicTacToe
     until over?
       turn
     end
-    won? ? "Congratulations #{winner}!" : draw? ? "Cat's Game!"
+    won? ? "Congratulations #{winner}!" : draw? ? "Cat's Game!" : nil
   end
 end
